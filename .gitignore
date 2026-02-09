@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+
+# Node
+node_modules/
+.next/
+out/
+build/
+
+# Data
+data/raw/*
+data/processed/*
+*.csv
+*.pkl
+
+# IDEs
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log

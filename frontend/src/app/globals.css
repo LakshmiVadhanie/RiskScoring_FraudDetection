@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-md p-6;
+}
+
+.stat-card {
+  @apply bg-gradient-to-br from-white to-gray-50 rounded-lg shadow-lg p-6 border border-gray-100;
+}
